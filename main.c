@@ -65,8 +65,6 @@ int main(int ac, char **av, char **envp)
 	return status;
 }
 
-
-
 // int main(int argc, char **argv, char **envp)
 // {
 // 	int i = 0;
@@ -81,7 +79,7 @@ int main(int ac, char **av, char **envp)
 // 			while (argv[i] && strcmp(argv[i], "|") && strcmp(argv[i], ";"))
 // 				i++;
 // 			if (i)
-// 				status = exec(argv, i, envp);
+// 				status = execute(argv, i, envp);
 // 		}
 // 	}
 // 	return status;
